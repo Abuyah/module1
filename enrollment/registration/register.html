@@ -5,7 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>register</title>
 </head>
-<body>
-  <h1>REGISTER PAGE</h1>
+<body style="background-color: gainsboro; color: black; font-family: sans-serif;">
+  <section style="display: flex; flex-direction: center; justify-content: center;">
+     <div style="width: 420px; height: 590px; background-color: white; border-radius: 5px;">
+      <div id="writeup" style="margin-left: 120px; color: orange;">
+        <h3>Registration Form</h3>
+      </div>
+      <form action="" method="post">
+        
+        <div id="fullname">
+          <label for="fullname" style="margin-left: 10px;">Full Name*</label><br>
+          <input type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+        </div>
+
+        <div id="email-phoneNo-address">
+          <label for="email" style="margin-left: 10px;">Email*</label><br>
+          <input type="email" name="userEmail" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+          <br>
+          <label for="phoneNumber" style="margin-left: 10px;">Phone Number*</label><br>
+          <input type="number" name="phoneNumber" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+          <br>
+          <label for="address" style="margin-left: 10px;">Address*</label><br>
+          <input type="address" name="address" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+        </div>
+        <br>
+        <div id="password">
+          <label for="password" style="margin-left: 10px;">Password*</label><br>
+          <input type="password" name="password" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+          <br>
+          <label for="confirmPassword" style="margin-left: 10px;">Confirm Password*</label><br>
+          <input type="password" name="confirmPassword" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+        </div>
+        <br>
+        <div id="link" style="margin-left: 165px;">
+          <a href="" style="text-decoration: none; color: gray;">Already registered?</a>
+          <button style="background-color: orange; color: white; width: 90px; height: 40px; border: 0; outline: 0; border-radius: 5px; font-size: large; font-weight: 200px;">Register</button>
+        </div>
+      </form>
+     </div>
+  </section>
 </body>
 </html>

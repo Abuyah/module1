@@ -5,8 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>logIn</title>
 </head>
-<body>
-  <h1>LOG IN PAGE</h1>
+<body style="background-color: gainsboro; color: black; font-family: sans-serif;">
   <a href="/dashboard/index.html">Take Me To Dashboard</a>
+
+
+    <section style="display: flex; flex-direction: center; justify-content: center; margin-top: 150px;">
+       <div style="width: 420px; height: 335px; background-color: white; border-radius: 5px;">
+        <div id="writeup" style="margin-left: 150px; color: orange;">
+          <h3>LogIn Form</h3>
+        </div>
+        <form action="" method="post">
+  
+          <div id="email">
+            <label for="email" style="margin-left: 10px;">Email*</label><br>
+            <input type="email" name="userEmail" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+          </div>
+          <br>
+          <div id="password">
+            <label for="password" style="margin-left: 10px;">Password*</label><br>
+            <input type="password" name="password" type="text" name="fullname" style="width: 90%; height: 25px; margin: 10px; padding: 5px; border-radius: 5px; outline: 0; border-color: gray; border-width: 0.5px; font-size: large;">
+          </div>
+          <br>
+          <div id="checkbox">
+            <input type="checkbox" name="rememberMe" style="margin-left: 10px;">Remember Me
+          </div>
+          <br>
+          <div id="link" style="margin-left: 165px;">
+            <a href="" style="text-decoration: none; color: gray;">Forgot Password?</a>
+            <button style="background-color: orange; color: white; width: 90px; height: 40px; border: 0; outline: 0; border-radius: 5px; font-size: large; font-weight: 200px;">LogIn</button>
+          </div>
+        </form>
+       </div>
+    </section>
+  
 </body>
 </html>
